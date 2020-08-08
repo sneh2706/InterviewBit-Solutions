@@ -1,3 +1,13 @@
+/*
+
+Given an array of integers A of size N and an integer B.
+
+College library has N bags,the ith book has A[i] number of pages.
+
+You have to allocate books to B number of students so that maximum number of pages alloted to a student is minimum.
+
+*/
+
 bool solve(vector<int> &v, int x, int b)
 {
     int i=0, n=v.size(), sum=x, counts=1;
